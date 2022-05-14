@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+.header {
+  max-width: 100vw;
+  position: relative;
+
+  img.home-img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__topNavBar {
+    display: flex;
+  }
+}
